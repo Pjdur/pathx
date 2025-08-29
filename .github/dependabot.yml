@@ -4,7 +4,7 @@ updates:
     directory: "/"  # Adjust if your Cargo.toml is in a subdirectory
     schedule:
       interval: "weekly"
-  - package-ecosystem: "rust"
+  - package-ecosystem: "rust-toolchain"
     directory: "/"  # This watches rust-toolchain.toml for updates
     schedule:
       interval: "weekly"
