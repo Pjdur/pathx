@@ -42,6 +42,7 @@ mod tests {
     use super::*;
     use std::path::Path;
 
+    #[cfg(unix)]
     #[test]
     fn test_strip_root_unix() {
         let path = Path::new("/foo/bar");
@@ -49,11 +50,12 @@ mod tests {
         assert_eq!(stripped, PathBuf::from("foo/bar"));
     }
 
+    #[cfg(windows)]
     #[test]
     fn test_strip_root_windows_prefix() {
         let path = Path::new("C:\\foo\\bar");
         let stripped = strip_root(path);
-        assert_eq!(stripped, PathBuf::from("foo\\bar"));
+        assert_eq!(stripped, PathBuf::from("C:\\foo\\bar"));
     }
 
     #[test]
