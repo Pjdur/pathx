@@ -1,5 +1,5 @@
-use std::path::Path;
 use pathx::is_subpath;
+use std::path::Path;
 
 fn main() {
     // Check if a path is a subpath of another

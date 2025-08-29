@@ -58,7 +58,6 @@ mod tests {
         assert_eq!(rel, expected);
     }
 
-
     #[test]
     fn test_relative_to_same() {
         let base = Path::new("/a/b");

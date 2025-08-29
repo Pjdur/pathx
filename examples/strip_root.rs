@@ -1,5 +1,5 @@
-use std::path::{Path};
 use pathx::strip_root;
+use std::path::Path;
 
 fn main() {
     // Strip root

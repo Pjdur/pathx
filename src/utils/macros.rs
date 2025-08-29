@@ -26,4 +26,3 @@ mod tests {
         assert_eq!(path.to_str().unwrap(), "src/core/lib.rs");
     }
 }
-

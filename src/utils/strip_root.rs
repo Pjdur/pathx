@@ -36,7 +36,6 @@ pub fn strip_root(path: &Path) -> PathBuf {
     PathBuf::new()
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;

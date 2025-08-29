@@ -1,5 +1,5 @@
-use std::path::Path;
 use pathx::{join, join_lossy};
+use std::path::Path;
 
 fn main() {
     // Joining paths

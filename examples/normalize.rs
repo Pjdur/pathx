@@ -1,5 +1,5 @@
-use std::path::Path;
 use pathx::normalize;
+use std::path::Path;
 
 fn main() {
     // Normalizing a path
