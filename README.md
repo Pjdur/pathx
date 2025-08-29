@@ -1,12 +1,21 @@
-# pathx
+<h1 align="center">pathx</h1>
 
-[![Crates.io](https://img.shields.io/crates/v/pathx.svg)](https://crates.io/crates/pathx)
-[![Docs.rs](https://img.shields.io/badge/docs.rs-pathx-blue)](https://docs.rs/pathx)
-[![License](https://img.shields.io/crates/l/pathx)](https://github.com/Pjdur/pathx/blob/main/LICENSE)
-[![CI](https://github.com/Pjdur/pathx/actions/workflows/ci.yml/badge.svg)](https://github.com/Pjdur/pathx/actions)
+<p align="center">
+  <a href="https://crates.io/crates/pathx">
+    <img src="https://img.shields.io/crates/v/pathx.svg?style=flat-square" alt="Crates.io">
+  </a>
+  <a href="https://docs.rs/pathx">
+    <img src="https://img.shields.io/badge/docs.rs-pathx-blue?style=flat-square" alt="Docs.rs">
+  </a>
+  <a href="https://github.com/Pjdur/pathx/blob/main/LICENSE">
+    <img src="https://img.shields.io/crates/l/pathx?style=flat-square" alt="License">
+  </a>
+  <a href="https://github.com/Pjdur/pathx/blob/main/.github/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/pjdur/pathx/ci.yml?style=flat-square" alt="CI">
+  </a>
+</p>
 
-
-**A collection of ergonomic, cross-platform utilities for working with paths in Rust.**
+<p align="center"><b>A collection of ergonomic, cross-platform utilities for working with paths in Rust.</b></p>
 
 From lexical normalization to templated path generation, `pathx` helps you compose, analyze, and manipulate paths with clarity and precision.
 
