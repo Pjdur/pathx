@@ -54,7 +54,7 @@ mod tests {
     fn test_strip_root_windows_prefix() {
         let path = Path::new("C:\\foo\\bar");
         let stripped = strip_root(path);
-        assert_eq!(stripped, PathBuf::from("C:\\foo\\bar"));
+        assert_eq!(stripped, PathBuf::from("foo\\bar"));
     }
 
     #[test]
