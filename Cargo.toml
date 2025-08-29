@@ -1,0 +1,15 @@
+[package]
+name = "pathx"
+version = "0.1.0"
+authors = ["Pjdur"]
+edition = "2024"
+rust-version = "1.85"
+description = "A collection of utilities for working with paths."
+readme = "README.md"
+homepage = "https://github.com/Pjdur/pathx"
+repository = "https://github.com/Pjdur/pathx"
+license = "MIT"
+keywords = ["path", "utilities", "filesystem"]
+categories = ["utilities", "filesystem"]
+
+[dependencies]
