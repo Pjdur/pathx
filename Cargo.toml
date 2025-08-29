@@ -9,7 +9,7 @@ readme = "README.md"
 homepage = "https://github.com/Pjdur/pathx"
 repository = "https://github.com/Pjdur/pathx"
 license = "MIT"
-keywords = ["path", "filesystem"]
-categories = ["utilities", "filesystem"]
+keywords = ["path", "utilities", "filesystem"]
+categories = ["filesystem"]
 
 [dependencies]
